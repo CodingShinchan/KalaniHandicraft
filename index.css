@@ -1,0 +1,62 @@
+.slider{
+    margin-top: 10px;
+}
+.tales{
+    height: 500px;
+    width: 1500px;
+}
+.text{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.card{
+    float: left;
+   
+    height: 450px;
+    border:2px solid black;
+    margin-left: 30px;
+    margin-top: 40px;
+    
+}
+.card-img-top {
+height: 250px;
+}
+.text2{
+   font-size: 50px;
+    text-align: center;
+    font-family: Algerian;
+    margin-top: 50px;
+ 
+}
+
+/* Dinky added */
+
+.pre-btn,
+.nxt-btn
+{
+    border:none;
+    width: 4vw;
+    height: 5%;
+    position: absolute;
+    top: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff,100%);
+    cursor: pointer;
+    z-index: 9;
+}
+
+
+
+
+
+.product-card
+{
+    position: absolute;
+    left: 4%;
+    display: flex;
+}
+
